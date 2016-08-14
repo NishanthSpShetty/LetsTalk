@@ -1,15 +1,26 @@
 {
-  "name": "socket_io_chat_app",
+  "name": "lets_talk",
   "version": "1.0.0",
   "description": "Demo chat app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Nishanth Shetty <nishanthspshetty@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.14.0"
-  }
+    "bluebird": "^3.4.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.8"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NishanthSpShetty/LetsTalk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NishanthSpShetty/LetsTalk/issues"
+  },
+  "homepage": "https://github.com/NishanthSpShetty/LetsTalk#readme"
 }
